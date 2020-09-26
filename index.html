@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/splitting/dist/splitting.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/splitting/dist/splitting-cells.css"
+    />
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+  </head>
+  <body>
+    <div class="animation-container">
+      <h1 class="splittingchars" data-splitting>Live Blogger Official</h1>
+      <p class="splittingwords" data-splitting="words">Learn Web Designing</p>
+
+      <div class="topics-container">
+        <span data-splitting class="blogger">Blogger</span>
+        <span data-splitting class="wordpress">WordPress</span>
+        <span data-splitting class="wix">Wix</span>
+      </div>
+    </div>
+
+    <script>
+      Splitting();
+    </script>
+  </body>
+</html>
